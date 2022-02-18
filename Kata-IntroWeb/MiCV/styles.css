@@ -80,7 +80,6 @@ nav div span{
     list-style-type: circle;
     padding-top:5px;
 }
-
 .contact-container{
     position: absolute;
     left: 0;
@@ -95,7 +94,6 @@ nav div span{
     padding-left: 50px;
     font-family: Arial;
 }
-
 .contact-social{
     display:grid;
     grid-template-columns: auto auto;
