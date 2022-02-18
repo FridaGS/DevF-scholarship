@@ -1,0 +1,110 @@
+.body-index{
+    background-image: url('./images/background1.jpg');
+    background-color: black;
+    color:white;
+}
+.log-in-square{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-in-content{
+    background-color: black;
+    opacity:0.85;
+    height:450px;
+    width:300px;
+    margin: 40px;
+}
+.log-in{
+    padding:20px 40px 50px ;
+}
+.log-in-form input{
+    border: solid #323332;
+    border-radius:2px;
+    margin-bottom: 8px;
+    width: 210px;
+    height: 25px;
+    background-color: #323332;
+    opacity: 1 !important;
+}
+.login-button{
+    background-color: red;
+    border: solid red;
+    width: 220px;
+    height: 35px;
+    color: white;
+    margin-top: 20px;
+}
+.login-recordar{
+    font-size: 12px;
+    display:inline;
+
+}
+.login-recordar input{
+    float: left;
+    height: 10px;
+
+}
+.login-recordar span{
+    float: right;
+
+}
+.log-in-facebook span{
+    font-size: 10px;
+}
+.log-in-sus{
+    font-size: 10px;
+}
+.footer-index{
+    background-color: black;
+    opacity:0.7;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    display: inline;
+    padding: 15px 15px;
+}
+.body-profile{
+    background-color: #151415;
+    color:white;
+    text-align: center;
+    width: 100%;
+}
+.profile-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #151415;
+    color: #808181;
+
+}
+.grid-container > div {
+    background-color: #151415;
+    text-align: center;
+    padding: 7px ;
+    font-size: 30px;
+}
+.grid-container > div a:hover{
+    color:white;
+}
+.profiles-button{
+    background-color: transparent;
+    color: #808181;
+    border: solid #808181;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+}
+.profiles-button a:hover{
+    color:white;
+}
